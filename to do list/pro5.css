@@ -1,0 +1,78 @@
+body {
+  background: linear-gradient(135deg, #030d9e, #251544e3);
+  /* background: linear-gradient(135deg, #153677, #4e085f); */
+}
+.full {
+  height: 200px;
+  width: 320px;
+  background-color: white;
+  margin-left: 500px;
+  margin-top: 200px;
+}
+h1 {
+  font-size: 25px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-transform: capitalize;
+  margin-left: 10px;
+  padding: 20px;
+  margin-top: 30px;
+  color: black;
+}
+.text {
+  margin-top: 0px;
+  margin-left: 20px;
+  border-radius: 50px;
+  border: none;
+  height: 30px;
+  width: 180px;
+  background-color: burlywood;
+  position: absolute;
+  padding: 10px;
+}
+.text::placeholder {
+  margin-left: 20px;
+  text-transform: capitalize;
+  padding: 13px;
+  color: rgb(90, 86, 86);
+}
+.add {
+  border-radius: 50px;
+  border: none;
+  height: 50px;
+  position: absolute;
+  width: 110px;
+  background-color: rgb(238, 55, 9);
+  color: black;
+  text-transform: capitalize;
+  padding: 10px;
+  margin-left: 185px;
+  margin-top: 0px;
+}
+.radio {
+  margin-top: 70px;
+  margin-left: 30px;
+  position: relative;
+  background-color: rgb(245, 33, 33);
+  color: black;
+}
+.bottom {
+  visibility: hidden;
+}
+.love {
+  margin-left: 60px;
+  margin-top: -18px;
+  /* text-decoration: line-through; */
+  text-decoration: dashed;
+  position: relative;
+}
+.close {
+  margin-left: 250px;
+  margin-top: -32px;
+  font-size: 20px;
+  position: absolute;
+  border: none;
+  border-radius: 13px;
+  height: 25px;
+  width: 25px;
+  background-color: transparent;
+}
